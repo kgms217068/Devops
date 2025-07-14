@@ -10,5 +10,5 @@ mongoose.connect(process.env.MONGO_URL)
 
 
 
-app.get('/', (req,res)=>res.send("안녕하세요 반갑습니다 즐거운 EC2"));
+app.get('/', (req,res)=>res.send("안녕하세요 여러분도 EC2하세요"));
 app.listen(PORT, ()=> console.log(`server on ${PORT}`));
